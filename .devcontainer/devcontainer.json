@@ -8,8 +8,6 @@
     "cpus": 2
   },
   "waitFor": "onCreateCommand",
-  "updateContentCommand": "python3 -m pip install -r requirements.txt",
-  "postCreateCommand": "yes | pip uninstall sympy",
   "customizations": {
     "codespaces": {
       "openFiles": []
